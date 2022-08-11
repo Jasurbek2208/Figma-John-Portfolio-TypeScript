@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Heebo", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #21243d;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+  /* border: 1px solid red; */
+}
+
+button {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #fff;
+  padding: 15px 20px;
+  border: 2px solid #ff6464;
+  border-radius: 2px;
+  background: #ff6464;
+  transition: 0.5s;
+}
+
+button:hover {
+  color: #ff6464;
+  background-color: #fff0;
+}
+
+button:active {
+  transform: translateY(4px);
+}
